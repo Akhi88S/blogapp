@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+<h1>Login</h1>
+<li><a href="/"><<button>GO BACK</button></a></li>
+	<link rel="stylesheet" href="/stylesheets/login.css">
+<form action="/login" method="POST">
+  <div class="container">
+      <label for="uname"><b>Username</b></label>
+    <input type="text" name="username" placeholder="username">
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" name="password" placeholder="password">
+
+      <button type="submit">Login</button>
+
+</form>
+<% include ./partials/footer %>
